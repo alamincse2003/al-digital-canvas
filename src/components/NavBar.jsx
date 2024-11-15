@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-// import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { HashLink } from "react-router-hash-link";
 
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/al-digital-canvas-logo.png"
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";

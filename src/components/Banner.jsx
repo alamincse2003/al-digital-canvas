@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+// import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/coding451x406-removebg-preview.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -77,10 +78,11 @@ const Banner = () => {
                       </span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vitae aliquam blanditiis quia, tenetur cum enim quibusdam
-                      debitis perspiciatis saepe amet id? Aliquid maiores velit
-                      eligendi atque quos nisi autem laborum.
+                      I am a Junior web developer. As a web developer , My skill
+                      have html,css,javascript,react,firebase,node.js and other
+                      libraries and framework. I have hard working ability. I
+                      can write clean code and trying to improve every single
+                      day.
                     </p>
                     <button onClick={() => console.log("connect")}>
                       Lets Connect <ArrowRightCircle size={25} />
