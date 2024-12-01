@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
-
-import logo from "../assets/img/al-digital-canvas-logo.png"
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState("false");
@@ -31,7 +26,7 @@ const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="" />
+          <img src="/img/logo.svg" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -69,13 +64,13 @@ const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="#">
-                <img src={navIcon1} alt="" />
+                <img src="/img/nav-icon1.svg" alt="" />
               </a>
               <a href="#">
-                <img src={navIcon2} alt="" />
+                <img src="/img/nav-icon2.svg" alt="" />
               </a>
               <a href="#">
-                <img src={navIcon3} alt="" />
+                <img src="/img/nav-icon3.svg" alt="" />
               </a>
             </div>
             <HashLink to="#connect">

@@ -266,10 +266,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Banner css  */
 
- .banner {
+.banner {
     /* margin-top: 0; */
     padding: 260px 0 100px 0;
-    background-image: url('./assets/img/banner-bg.png');
+    /* background-image: url('../public/img/banner-bg.png'); */
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -344,9 +344,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .txt-rotate>.wrap {
     border-right: 0.08em solid #666;
-} 
+}
 
-/* skills  */
+
+/* skills css */
 .skill {
     padding: 0 0 50px 0;
     position: relative;
@@ -536,15 +537,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     right: 0;
     z-index: -4;
 }
+
 /* contact css  */
-.contact{
+.contact {
     margin-top: 20px;
 }
+
 /* footer css  */
 .footer {
     margin-top: 20px;
     padding: 14px 0 50px 0;
-    background-image: url('./assets/img/footer-bg.png');
+    /* background-image: url('/img/footer-bg.png'); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -561,7 +564,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
+
 /* responsive */
+/* Extra small devices (phones, < 576px) */
+@media (max-width: 575.98px) {
+
+    /* banner */
+    .banner {
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 12px;
+        width: 100%;
+
+    }
+
+    .banner button {
+        margin-top: 30px;
+
+        font-size: 18px;
+
+    }
+
+    .banner img {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    /* skills  */
+    .skill p {
+        font-size: 11px;
+    }
+
+    /* projects  */
+    .project p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    /* footer  */
+    .footer {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 50%;
+    }
+
+    .footer p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .social-icon {
+        margin-top: 30px;
+    }
+}
+
 @media (min-width:1700px) {
     main .container {
         max-width: 100%;
